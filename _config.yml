@@ -23,13 +23,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  name             : "Afreen Khan"
+  pronouns         :   
+  bio              : "Assistant Professor | Healthcare AI & Machine Learning | PhD"
+  location         : "Lucknow, India"
+  employer         : "Integral University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "afreenkhan@iul.ac.in | afreen.khan2k13@gmail.com" 
 
   # Academic websites
   academia         : # URL
