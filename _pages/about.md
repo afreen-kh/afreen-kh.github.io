@@ -10,7 +10,7 @@ redirect_from:
 
 I am an Assistant Professor in the Department of Computer Application at Integral University, Lucknow, where I conduct research at the intersection of artificial intelligence, healthcare informatics, and clinical decision support. My work focuses on developing AI systems that integrate diverse healthcare data, from neuroimaging and genomic biomarkers to clinical narratives and social determinants of health, to advance precision medicine and address health equity challenges in resource-limited settings.
 
-## Research Portfolio: AI-Driven Healthcare Analytics & Clinical Decision Support
+## Research Portfolio
 
 My research integrates machine learning, natural language processing, and geospatial analytics to solve critical problems in healthcare. I develop explainable, bias-aware AI systems across three main areas: neurodegenerative disease diagnosis, large-scale population health surveillance, and clinical text mining. My approach emphasizes translational research that bridges academic innovation with practical healthcare deployment.
 
