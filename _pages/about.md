@@ -128,8 +128,8 @@ My research experience combines technical machine learning expertise with health
 
 **Contact Information**
 
-Email: afreen.khan@iul.ac.in | afreen.khan2k13@gmail.com
+**Email:** afreen.khan@iul.ac.in | afreen.khan2k13@gmail.com
 
-Office: Department of Computer Application, Integral University, Lucknow, UP 226026, India
+**Office:** Department of Computer Application, Integral University, Lucknow, UP 226026, India
 
 <a href="https://scholar.google.com/citations?user=1nYfL-MAAAAJ&hl=en" target="_blank">Google Scholar</a> | <a href="https://orcid.org/0000-0002-0545-7785" target="_blank">ORCID</a> | <a href="https://www.researchgate.net/profile/Afreen_Khan4" target="_blank">ResearchGate</a> | <a href="https://www.scopus.com/authid/detail.uri?authorId=57205026656" target="_blank">Scopus</a> | <a href="https://www.linkedin.com/in/afreen-khan-phd-89668588" target="_blank">LinkedIn</a>
