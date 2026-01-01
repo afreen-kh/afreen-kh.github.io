@@ -48,7 +48,7 @@ I am currently pursuing a Post-Graduate Diploma in Data Science in Health and Cl
 
 **Publications:** 13 peer-reviewed papers, h-index: 9, 291 citations
 
-**Top Publications:** *Neural Computing and Applications* (2025), *Frontiers in Neuroscience* (2024), *Journal of King Saud University - Computer and Information Sciences* (2022, 2020)
+**Top Publications:** Neural Computing and Applications (2025), Frontiers in Neuroscience (2024), Journal of King Saud University - Computer and Information Sciences (2022, 2020)
 
 **Editorial Service:** Scientific Reports
 
