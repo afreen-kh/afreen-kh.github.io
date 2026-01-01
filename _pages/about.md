@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am an Assistant Professor in the Department of Computer Application at Integral University, Lucknow, where I conduct research at the intersection of artificial intelligence, healthcare informatics, and clinical decision support. My research develops artificial intelligence systems for clinical decision support and disease prediction, integrating diverse healthcare data modalities, from neuroimaging data to clinical narratives and social determinants of health. This work advances precision medicine and addresses health equity challenges in resource-limited settings.
+I am an Assistant Professor in the Department of Computer Application at Integral University, Lucknow, where I conduct research at the intersection of artificial intelligence, healthcare informatics, and clinical decision support. My work focuses on developing AI systems that integrate diverse healthcare data, from neuroimaging and genomic biomarkers to clinical narratives and social determinants of health, to advance precision medicine and address health equity challenges in resource-limited settings.
 
 ## Research Portfolio: AI-Driven Healthcare Analytics & Clinical Decision Support
 
-My research integrates artificial intelligence with healthcare informatics, spanning neurodegenerative disease diagnosis, large-scale population health analytics, and clinical natural language processing. Working with multimodal data, neuroimaging, genomic biomarkers, clinical narratives, and social determinants of health, I develop explainable, bias-aware AI systems. My work emphasizes translational research that bridges academic methods with healthcare practice, addressing health disparities in resource-limited environments.
+My research integrates machine learning, natural language processing, and geospatial analytics to solve critical problems in healthcare. I develop explainable, bias-aware AI systems across three main areas: neurodegenerative disease diagnosis, large-scale population health surveillance, and clinical text mining. My approach emphasizes translational research that bridges academic innovation with practical healthcare deployment.
 
 ### Neurodegenerative Disease Prediction & Diagnosis
 
@@ -70,7 +70,7 @@ I am currently pursuing a Post-Graduate Diploma in Data Science in Health and Cl
 
 ## Technical Expertise
 
-**Machine Learning:** Deep learning, ensemble methods (Random Forest, XGBoost, Gradient Boosting), neuroevolution algorithms, dimensionality reduction, regularization techniques
+**Machine Learning:** Deep learning architectures, ensemble methods (Random Forest, XGBoost, Gradient Boosting), neuroevolution algorithms, dimensionality reduction, regularization techniques
 
 **Healthcare Data Science:** Electronic health record mining, medical time-series analysis, statistical modeling, epidemiological analysis, genomic biomarker analysis
 
