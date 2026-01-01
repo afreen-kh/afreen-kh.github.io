@@ -132,4 +132,4 @@ Email: afreen.khan@iul.ac.in
 
 Office: Department of Computer Application, Integral University, Lucknow, UP 226026, India
 
-[Google Scholar](https://scholar.google.com/citations?user=1nYfL-MAAAAJ&hl=en) | [ORCID](https://orcid.org/0000-0002-0545-7785) | [ResearchGate](https://www.researchgate.net/profile/Afreen_Khan4) | [Scopus](https://www.scopus.com/authid/detail.uri?authorId=57205026656) | [LinkedIn](https://www.linkedin.com/in/afreen-khan-89668588/)
+[Google Scholar](https://scholar.google.com/citations?user=1nYfL-MAAAAJ&hl=en) | [ORCID](https://orcid.org/0000-0002-0545-7785) | [ResearchGate](https://www.researchgate.net/profile/Afreen_Khan4) | [Scopus](https://www.scopus.com/authid/detail.uri?authorId=57205026656) | [LinkedIn](https://www.linkedin.com/in/afreen-khan-89668588)
