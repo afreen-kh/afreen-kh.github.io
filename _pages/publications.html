@@ -7,7 +7,7 @@ author_profile: true
 
 You can also find my articles on <a href="https://scholar.google.com/citations?user=1nYfL-MAAAAJ&hl=en">my Google Scholar profile</a>.
 
----
+**h-index: 9 | Citations: 291 | 13 Journal Articles**
 
 ## Journal Articles
 
@@ -16,8 +16,6 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
   {% include archive-single.html %}
 {% endfor %}
 
----
-
 ## Conference Proceedings
 
 {% assign conf_papers = site.publications | where: "category", "conference" | sort: "date" | reverse %}
@@ -25,16 +23,12 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
   {% include archive-single.html %}
 {% endfor %}
 
----
-
 ## Book Chapters
 
 {% assign book_chapters = site.publications | where: "category", "book-chapter" | sort: "date" | reverse %}
 {% for post in book_chapters %}
   {% include archive-single.html %}
 {% endfor %}
-
----
 
 ## Edited Books
 
