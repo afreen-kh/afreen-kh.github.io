@@ -6,33 +6,51 @@ author_profile: true
 ---
 
 <p class="publications-header">
-  You can also find my articles on <a href="https://scholar.google.com/citations?user=1nYfL-MAAAAJ&hl=en">my Google Scholar profile</a>.
+  You can also find my articles on 
+  <a href="https://scholar.google.com/citations?user=1nYfL-MAAAAJ&hl=en" target="_blank">
+    my Google Scholar profile
+  </a>.
 </p>
 
-<h2 class="pub-section-title">Journal Articles</h2>
+<div class="publications-stats">
+  <strong>13</strong> peer-reviewed journal articles · h-index: 9 · Total citations: 291
+</div>
 
-{% assign journal_papers = site.publications | where: "category", "journal" | sort: "date" | reverse %}
+<h2 class="pub-section-title">Journal Articles (Peer-Reviewed)</h2>
+
+{% assign journal_papers = site.publications 
+   | where: "category", "journal" 
+   | sort: "date" | reverse %}
+
 {% for post in journal_papers %}
   {% include archive-single.html %}
 {% endfor %}
 
 <h2 class="pub-section-title">Conference Proceedings</h2>
 
-{% assign conf_papers = site.publications | where: "category", "conference" | sort: "date" | reverse %}
+{% assign conf_papers = site.publications 
+   | where: "category", "conference" 
+   | sort: "date" | reverse %}
+
 {% for post in conf_papers %}
   {% include archive-single.html %}
 {% endfor %}
 
 <h2 class="pub-section-title">Book Chapters</h2>
 
-{% assign book_chapters = site.publications | where: "category", "book-chapter" | sort: "date" | reverse %}
+{% assign book_chapters = site.publications 
+   | where: "category", "book-chapter" 
+   | sort: "date" | reverse %}
+
 {% for post in book_chapters %}
   {% include archive-single.html %}
 {% endfor %}
 
 <h2 class="pub-section-title">Edited Books</h2>
 
-{% assign edited_books = site.publications | where: "category", "edited-book" | sort: "date" | reverse %}
+{% assign edited_books = site.publications 
+   | where: "category", "edited-book" 
+   | sort: "date" | reverse %}
+
 {% for post in edited_books %}
-  {% include archive-single.html %}
-{% endfor %}
+  {% include archive-sing
