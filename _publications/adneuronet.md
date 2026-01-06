@@ -1,6 +1,6 @@
 ---
 title: "ADNeuroNet: A Neuroevolution-Based Neural Network Algorithm for the Diagnosis of Neurodegenerative Diseases"
-authors: "Afreen Khan, S. Zubair, I. Ali"
+authors: "**Afreen Khan**, S. Zubair, I. Ali"
 venue: "Neural Computing and Applications"
 date: 2025-01-01
 category: manuscripts
