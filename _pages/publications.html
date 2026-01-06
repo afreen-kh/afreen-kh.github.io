@@ -5,12 +5,40 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
-{% endif %}
+You can also find my articles on <a href="https://scholar.google.com/citations?user=1nYfL-MAAAAJ&hl=en">my Google Scholar profile</a>.
 
-{% include base_path %}
+---
 
-{% for post in site.publications reversed %}
+## Journal Articles
+
+{% assign journal_papers = site.publications | where: "category", "journal" | sort: "date" | reverse %}
+{% for post in journal_papers %}
+  {% include archive-single.html %}
+{% endfor %}
+
+---
+
+## Conference Proceedings
+
+{% assign conf_papers = site.publications | where: "category", "conference" | sort: "date" | reverse %}
+{% for post in conf_papers %}
+  {% include archive-single.html %}
+{% endfor %}
+
+---
+
+## Book Chapters
+
+{% assign book_chapters = site.publications | where: "category", "book-chapter" | sort: "date" | reverse %}
+{% for post in book_chapters %}
+  {% include archive-single.html %}
+{% endfor %}
+
+---
+
+## Edited Books
+
+{% assign edited_books = site.publications | where: "category", "edited-book" | sort: "date" | reverse %}
+{% for post in edited_books %}
   {% include archive-single.html %}
 {% endfor %}
