@@ -1,31 +1,47 @@
 {% include base_path %}
 
-<div class="list__item">
-  <article class="archive__item">
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
 
-    <h2 class="archive__item-title">
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+
+    <!-- TITLE -->
+    <h2 class="archive__item-title" itemprop="headline">
       {% if post.paperurl %}
-        <a href="{{ post.paperurl }}" target="_blank">{{ post.title }}</a>
+        <a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ title }}</a>
       {% else %}
-        {{ post.title }}
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
 
+    <!-- AUTHORS -->
+    {% if post.authors %}
+      <div class="pub-authors">
+        {{ post.authors }}
+      </div>
+    {% endif %}
+
+    <!-- JOURNAL / VENUE -->
     {% if post.collection == 'publications' %}
-      <p>
-        Published in <i>{{ post.venue }}</i>,
-        {{ post.date | date: "%Y" }}
-      </p>
+      <div class="pub-journal">
+        Published in {{ post.venue }}, {{ post.date | date: "%Y" }}
+      </div>
     {% endif %}
 
+    <!-- CONTRIBUTION / EXCERPT -->
     {% if post.excerpt %}
-      <p class="archive__item-excerpt">
-        {{ post.excerpt }}
-      </p>
+      <div class="pub-contribution">
+        {{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}
+      </div>
     {% endif %}
 
+    <!-- LINKS -->
     {% if post.pdf or post.doi or post.code %}
-      <p>
+      <p style="margin-top: 8px;">
         {% if post.pdf %}
           <a href="{{ post.pdf }}" target="_blank">PDF</a>
         {% endif %}
