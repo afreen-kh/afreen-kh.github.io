@@ -52,13 +52,15 @@
   color: #444;
 }
 
-.archive__item-links a {
-  font-size: 14.5px;
+/* Publication action links (PDF | DOI | Code) */
+.archive__item-links a,
+.archive__item p a {
+  font-size: 13.5px !important;
   font-weight: 500;
-  color: #2c3e50;
-  text-decoration: none;
+  color: #3a7ca5;
 }
 
-.archive__item-links a:hover {
+.archive__item-links a:hover,
+.archive__item p a:hover {
   text-decoration: underline;
 }
