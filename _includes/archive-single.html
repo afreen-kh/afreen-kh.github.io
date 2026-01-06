@@ -23,8 +23,7 @@
       <div class="pub-authors">
         {{ post.authors | markdownify | remove: "<p>" | remove: "</p>" }}
       </div>
-    {% endif %}   
-
+    {% endif %}
 
     <!-- JOURNAL / VENUE -->
     {% if post.collection == 'publications' %}
@@ -33,7 +32,7 @@
       </div>
     {% endif %}
 
-    <!-- CONTRIBUTION / EXCERPT -->
+    <!-- CONTRIBUTION -->
     {% if post.excerpt %}
       <div class="pub-contribution">
         {{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}
@@ -42,7 +41,7 @@
 
     <!-- LINKS -->
     {% if post.pdf or post.doi or post.code %}
-      <p style="margin-top: 8px;">
+      <p class="archive__item-links">
         {% if post.pdf %}
           <a href="{{ post.pdf }}" target="_blank">PDF</a>
         {% endif %}
