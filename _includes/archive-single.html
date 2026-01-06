@@ -21,9 +21,10 @@
     <!-- AUTHORS -->
     {% if post.authors %}
       <div class="pub-authors">
-        {{ post.authors }}
+        {{ post.authors | markdownify | remove: "<p>" | remove: "</p>" }}
       </div>
-    {% endif %}
+    {% endif %}   
+
 
     <!-- JOURNAL / VENUE -->
     {% if post.collection == 'publications' %}
