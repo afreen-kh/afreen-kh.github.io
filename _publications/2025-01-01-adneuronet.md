@@ -1,6 +1,7 @@
 ---
 title: "ADNeuroNet: A Neuroevolution-based Neural Network Algorithm for the Diagnosis of Neurodegenerative diseases"
 collection: publications
+category: journal
 permalink: /publication/2025-adneuronet
 excerpt: 'Neuroevolution-based neural network integrating multimodal data for Alzheimer disease diagnosis.'
 date: 2025-01-01
