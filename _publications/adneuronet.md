@@ -3,7 +3,7 @@ title: "ADNeuroNet: A Neuroevolution-Based Neural Network Algorithm for the Diag
 authors: "**Afreen Khan**, S. Zubair, I. Ali"
 venue: "Neural Computing and Applications"
 date: 2025-01-01
-category: journal
+category: manuscripts
 
 paperurl: "https://doi.org/10.1007/s00521-024-XXXXX"
 
