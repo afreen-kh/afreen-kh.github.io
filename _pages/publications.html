@@ -12,24 +12,23 @@ my Google Scholar profile
 </a>.
 </div>
 
-
 <h2 class="pub-section-title">Journal Articles (Peer-Reviewed)</h2>
 
-{% assign journal_papers = site.publications | where: "category", "journal" | sort: "date" | reverse %}
+{% assign journal_papers = site.publications | where: "category", "manuscripts" | sort: "date" | reverse %}
 {% for post in journal_papers %}
   {% include archive-single.html %}
 {% endfor %}
 
 <h2 class="pub-section-title">Conference Proceedings</h2>
 
-{% assign conf_papers = site.publications | where: "category", "conference" | sort: "date" | reverse %}
+{% assign conf_papers = site.publications | where: "category", "conferences" | sort: "date" | reverse %}
 {% for post in conf_papers %}
   {% include archive-single.html %}
 {% endfor %}
 
 <h2 class="pub-section-title">Book Chapters</h2>
 
-{% assign book_chapters = site.publications | where: "category", "book-chapter" | sort: "date" | reverse %}
+{% assign book_chapters = site.publications | where: "category", "books" | sort: "date" | reverse %}
 {% for post in book_chapters %}
   {% include archive-single.html %}
 {% endfor %}
