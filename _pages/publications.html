@@ -5,32 +5,66 @@ permalink: /publications/
 author_profile: true
 ---
 
-You can also find my articles on <a href="https://scholar.google.com/citations?user=1nYfL-MAAAAJ&hl=en">my Google Scholar profile</a>.
+<style>
+  .publications-header {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .publications-stats {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  .pub-section-title {
+    font-size: 22px;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 8px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+  }
+  .archive__item-title {
+    font-size: 18px !important;
+    line-height: 1.4;
+  }
+  .archive__item-excerpt {
+    font-size: 14px;
+  }
+  .page__content p {
+    font-size: 14px;
+  }
+</style>
 
-**h-index: 9 | Citations: 291 | 13 Journal Articles**
+<p class="publications-header">
+  You can also find my articles on <a href="https://scholar.google.com/citations?user=1nYfL-MAAAAJ&hl=en">my Google Scholar profile</a>.
+</p>
 
-## Journal Articles
+<p class="publications-stats">
+  <strong>h-index: 9 | Citations: 291 | 13 Journal Articles</strong>
+</p>
+
+<h2 class="pub-section-title">Journal Articles</h2>
 
 {% assign journal_papers = site.publications | where: "category", "journal" | sort: "date" | reverse %}
 {% for post in journal_papers %}
   {% include archive-single.html %}
 {% endfor %}
 
-## Conference Proceedings
+<h2 class="pub-section-title">Conference Proceedings</h2>
 
 {% assign conf_papers = site.publications | where: "category", "conference" | sort: "date" | reverse %}
 {% for post in conf_papers %}
   {% include archive-single.html %}
 {% endfor %}
 
-## Book Chapters
+<h2 class="pub-section-title">Book Chapters</h2>
 
 {% assign book_chapters = site.publications | where: "category", "book-chapter" | sort: "date" | reverse %}
 {% for post in book_chapters %}
   {% include archive-single.html %}
 {% endfor %}
 
-## Edited Books
+<h2 class="pub-section-title">Edited Books</h2>
 
 {% assign edited_books = site.publications | where: "category", "edited-book" | sort: "date" | reverse %}
 {% for post in edited_books %}
