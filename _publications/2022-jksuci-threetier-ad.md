@@ -8,6 +8,6 @@ category: manuscripts
 paperurl: "https://www.sciencedirect.com/science/article/pii/S1319157822002439"
 pdf: "https://www.sciencedirect.com/science/article/pii/S1319157822002439/pdf"
 
-excerpt: "Develops a three-tiered cognitive hybrid machine learning framework that integrates multiple learning paradigms to improve the accuracy of Alzheimer’s disease diagnosis."
+excerpt: "Introduces a three-tiered cognitive hybrid machine learning framework that combines multiple learning paradigms to enhance the accuracy and robustness of Alzheimer’s disease diagnosis."
 
 ---
