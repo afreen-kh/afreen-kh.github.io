@@ -43,6 +43,12 @@
       </div>
     {% endif %}
 
+    {% if post.presentation_note %}
+      <div class="pub-presentation">
+        {{ post.presentation_note }}
+      </div>
+    {% endif %}
+
     <!-- LINKS -->
     {% if post.pdf or post.code or post.poster %}
       <p class="archive__item-links">
