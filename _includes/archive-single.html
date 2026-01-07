@@ -40,17 +40,13 @@
     {% endif %}
 
     <!-- LINKS -->
-    {% if post.pdf or post.doi or post.code %}
+    {% if post.pdf or or post.code %}
       <p class="archive__item-links">
         {% if post.pdf %}
           <a href="{{ post.pdf }}" target="_blank">PDF</a>
-        {% endif %}
-        {% if post.doi %}
-          {% if post.pdf %} | {% endif %}
-          <a href="https://doi.org/{{ post.doi }}" target="_blank">DOI</a>
-        {% endif %}
+        {% endif %}        
         {% if post.code %}
-          {% if post.pdf or post.doi %} | {% endif %}
+          {% if post.pdf %} | {% endif %}
           <a href="{{ post.code }}" target="_blank">Code</a>
         {% endif %}
       </p>
