@@ -27,6 +27,7 @@
   line-height: 1.4;
 }
 
+
 .archive__item-excerpt {
   font-size: 14.5px;
   color: #444;
@@ -63,4 +64,11 @@
 .archive__item-links a:hover,
 .archive__item p a:hover {
   text-decoration: underline;
+}
+
+.pub-presentation {
+  font-size: 13.5px;
+  color: #666;
+  margin-top: 4px;
+  font-style: italic;
 }
