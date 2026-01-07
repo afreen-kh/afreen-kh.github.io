@@ -10,6 +10,7 @@ pdf: "https://www.frontiersin.org/articles/10.3389/fnins.2024.1391465/pdf"
 code: "https://github.com/afreen-kh/paper-companion"
 code_label: "Repo"
 
-excerpt: "Proposes a parallel and multi-composite machine learning framework integrating AT(N) protein biomarkers and dementia-associated drug usage patterns to enhance Alzheimer’s disease diagnosis."
+excerpt: "A parallel and multi-composite machine learning architecture that integrates AT(N) protein biomarkers with clinical features to enhance Alzheimer’s disease diagnostic accuracy."
+
 
 ---
