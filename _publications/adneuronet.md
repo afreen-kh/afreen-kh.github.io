@@ -5,9 +5,8 @@ venue: "Neural Computing and Applications"
 date: 2025-01-01
 category: manuscripts
 
-paperurl: "https://doi.org/10.1007/s00521-024-00000"
+paperurl: "https://link.springer.com/article/10.1007/s00521-025-11021-y"
 pdf: "https://link.springer.com/content/pdf/10.1007/s00521-024-00000.pdf"
-doi: "10.1007/s00521-024-00000"
 code: "https://github.com/afreen-kh/adneuronet"
 
 excerpt: "A neuroevolution-driven deep learning framework that autonomously optimizes neural network architectures for robust diagnosis of neurodegenerative diseases."
