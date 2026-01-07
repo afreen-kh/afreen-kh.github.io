@@ -12,9 +12,13 @@
     <!-- TITLE -->
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.paperurl %}
-        <a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ title }}</a>
+        <a href="{{ post.paperurl }}" target="_blank" rel="noopener">
+          {{ title }}
+        </a>
       {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">
+          {{ title }}
+        </a>
       {% endif %}
     </h2>
 
@@ -40,11 +44,11 @@
     {% endif %}
 
     <!-- LINKS -->
-    {% if post.pdf or or post.code %}
+    {% if post.pdf or post.code %}
       <p class="archive__item-links">
         {% if post.pdf %}
           <a href="{{ post.pdf }}" target="_blank">PDF</a>
-        {% endif %}        
+        {% endif %}
         {% if post.code %}
           {% if post.pdf %} | {% endif %}
           <a href="{{ post.code }}" target="_blank">
