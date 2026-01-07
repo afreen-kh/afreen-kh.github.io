@@ -32,3 +32,10 @@ my Google Scholar profile
 {% for post in book_chapters %}
   {% include archive-single.html %}
 {% endfor %}
+
+<h2 class="pub-section-title">Early Research and Foundational Studies</h2>
+
+{% assign early_papers = site.publications | where: "category", "early-work" | sort: "date" | reverse %}
+{% for post in early_papers %}
+  {% include archive-single.html %}
+{% endfor %}
