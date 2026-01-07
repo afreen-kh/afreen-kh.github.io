@@ -47,7 +47,9 @@
         {% endif %}        
         {% if post.code %}
           {% if post.pdf %} | {% endif %}
-          <a href="{{ post.code }}" target="_blank">Code</a>
+          <a href="{{ post.code }}" target="_blank">
+            {{ post.code_label | default: "Code" }}
+          </a>
         {% endif %}
       </p>
     {% endif %}
