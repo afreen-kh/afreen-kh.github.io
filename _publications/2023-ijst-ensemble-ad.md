@@ -8,6 +8,6 @@ category: manuscripts
 paperurl: "https://indjst.org/articles/a-hybrid-approach-for-weak-learners-utilizing-ensemble-technique-for-alzheimers-disease-prognosis"
 pdf: "https://indjst.org/articles/a-hybrid-approach-for-weak-learners-utilizing-ensemble-technique-for-alzheimers-disease-prognosis.pdf"
 
-excerpt: "Presents a hybrid ensemble-based learning framework that improves Alzheimer’s disease prognosis by effectively combining multiple weak classifiers."
+excerpt: "An ensemble learning methodology that combines multiple weak classifiers to improve prognostic performance for Alzheimer’s disease."
 
 ---
