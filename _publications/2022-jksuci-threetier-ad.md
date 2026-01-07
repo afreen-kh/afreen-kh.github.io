@@ -7,6 +7,8 @@ category: manuscripts
 
 paperurl: "https://www.sciencedirect.com/science/article/pii/S1319157822002439"
 pdf: "https://www.sciencedirect.com/science/article/pii/S1319157822002439/pdf"
+code: "https://github.com/afreen-kh/paper-companion"
+code_label: "Repo"
 
 excerpt: "Introduces a three-tiered cognitive hybrid machine learning framework that combines multiple learning paradigms to enhance the accuracy and robustness of Alzheimer’s disease diagnosis."
 
