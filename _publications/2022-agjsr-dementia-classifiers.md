@@ -11,4 +11,5 @@ code: "https://github.com/afreen-kh/paper-companion"
 code_label: "Repo"
 
 excerpt: "Demonstrates the clinical significance of the Clinical Dementia Rating (CDR) scale for dementia prognosis by systematically evaluating 20 machine learning classifiers on MRI-derived features, identifying CDR as a strong and statistically significant predictor."
+
 ---
