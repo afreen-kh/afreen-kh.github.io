@@ -44,15 +44,23 @@
     {% endif %}
 
     <!-- LINKS -->
-    {% if post.pdf or post.code %}
+    {% if post.pdf or post.code or post.poster %}
       <p class="archive__item-links">
         {% if post.pdf %}
           <a href="{{ post.pdf }}" target="_blank">PDF</a>
         {% endif %}
+
         {% if post.code %}
           {% if post.pdf %} | {% endif %}
           <a href="{{ post.code }}" target="_blank">
             {{ post.code_label | default: "Code" }}
+          </a>
+        {% endif %}
+
+        {% if post.poster %}
+          {% if post.pdf or post.code %} | {% endif %}
+          <a href="{{ post.poster }}" target="_blank">
+            {{ post.poster_label | default: "Poster" }}
           </a>
         {% endif %}
       </p>
