@@ -1,7 +1,7 @@
 ---
 title: "An Automated Framework for Extracting Medical Entities from Unstructured EHRs Using Biomedical NER Models"
 authors: "Camran A., **Afreen Khan**"
-venue: "16th International IEEE Conference on Computing, Communication and Networking Technologies (ICCCNT), IIT Indore"
+venue: "16th International IEEE Conference on Computing, Communication and Networking Technologies (ICCCNT), IIT Indore, India"
 date: 2025-07-01
 category: conference
 
