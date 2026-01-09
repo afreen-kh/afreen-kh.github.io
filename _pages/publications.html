@@ -21,7 +21,7 @@ my Google Scholar profile
 
 <h2 class="pub-section-title">Conference Proceedings</h2>
 
-{% assign conf_papers = site.publications | where: "category", "conferences" | sort: "date" | reverse %}
+{% assign conf_papers = site.publications | where: "category", "conference" | sort: "date" | reverse %}
 {% for post in conf_papers %}
   {% include archive-single.html %}
 {% endfor %}
