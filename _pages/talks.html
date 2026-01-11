@@ -1,0 +1,31 @@
+---
+layout: archive
+title: "Talks & Academic Service"
+permalink: /talks/
+author_profile: true
+---
+
+<div class="publications-header">
+Selected invited talks, plenary sessions, and conference presentations.
+</div>
+
+<h2 class="pub-section-title">Invited Talks & Plenary Sessions</h2>
+
+{% assign invited = site.talks | where: "category", "invited" | sort: "date" | reverse %}
+{% for post in invited %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<h2 class="pub-section-title">Conference Oral / Poster Presentations</h2>
+
+{% assign presentations = site.talks | where: "category", "presentation" | sort: "date" | reverse %}
+{% for post in presentations %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<h2 class="pub-section-title">Session Chair & Academic Service</h2>
+
+{% assign service = site.talks | where: "category", "service" | sort: "date" | reverse %}
+{% for post in service %}
+  {% include archive-single.html %}
+{% endfor %}
