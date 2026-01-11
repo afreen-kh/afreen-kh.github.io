@@ -40,6 +40,12 @@
       </div>
     {% endif %}
 
+    {% if post.role %}
+      <div class="pub-journal">
+        {{ post.role }}
+      </div>
+    {% endif %}
+
     <!-- CONTRIBUTION -->
     {% if post.excerpt %}
       <div class="pub-contribution">
