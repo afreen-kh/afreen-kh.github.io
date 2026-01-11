@@ -1,7 +1,7 @@
 ---
 title: "AI Frontiers in Public Health: Innovations and Impact for the 21st Century"
 authors: "Asif Khan, Sarosh S. Patel, **Afreen Khan**, Syed Belal Hassan, Mohammed Aslam Husain"
-venue: "To be published in Springer - Edited Volume (In Preparation)"
+venue: "Springer - Edited Volume (In Preparation)"
 date: 2025-01-01
 category: edited-volume
 
