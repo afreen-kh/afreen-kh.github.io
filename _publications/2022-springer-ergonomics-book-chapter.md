@@ -1,7 +1,7 @@
 ---
 title: "Analysing the Academic Performance of Students Under Varying Climatic Conditions"
 authors: "M. K. Vakil, **Afreen Khan**, A. Rahman"
-venue: "In: Ergonomics for Improved Productivity (Eds. M. Muzammil, A. A. Khan, F. Hasan), Springer, Singapore"
+venue: "Ergonomics for Improved Productivity (Eds. M. Muzammil, A. A. Khan, F. Hasan), Springer, Singapore"
 date: 2022-01-01
 category: books
 
