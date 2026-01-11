@@ -1,88 +1,64 @@
 ---
 layout: single
-title: "Talks & Academic Service"
+title: "Talks, Invited Lectures & Session Roles"
 permalink: /talks/
 author_profile: true
 ---
 
-## Plenary & Invited Speaker Roles
 
-### **Health Data AI and Analytics**
-**Plenary Speaker**  
-**XXVIII Annual International Conference of the Indian Association of Preventive & Social Medicine (IAPSM)**  
-**Integral–IAPSM UP–UK CON 2025**  
-Integral Institute of Medical Sciences & Research,  
-Integral University, Lucknow, India  
-**15–16 November 2025**
+🔹 Invited Talks & Plenary Sessions
 
-**Talks delivered:**
-- *HealthDS: A Context-Aware Synthetic Health Data Generator for India's Public Health Research and Education*
-- *SMART-Rural: AI-Enabled Social Determinants Profiling and Geospatial Risk Stratification for Chronic Diseases in a 15,000 Rural Population*
+HealthDS: A Context-Aware Synthetic Health Data Generator for India’s Public Health Research and Education
+Plenary Speaker
+XXVIII Annual International Conference of the Indian Association of Preventive & Social Medicine (IAPSM)
+Integral–IAPSM UP–UK CON 2025, Lucknow, India · 2025
 
----
+SMART-Rural: AI-Enabled Social Determinants Profiling and Geospatial Risk Stratification for Chronic Diseases in 15,000 Rural Population
+Oral / Poster Presentation
+XXVIII Annual International Conference of the Indian Association of Preventive & Social Medicine (IAPSM)
+Integral–IAPSM UP–UK CON 2025, Lucknow, India · 2025
 
-## Academic Leadership & Service
+🔹 Session Chair Roles
 
-### **Session Chair**
-**5th International Conference on ICT for Digital, Smart and Sustainable Development (ICIDSSD 2025)**  
-Department of Computer Science & Engineering,  
-School of Engineering Sciences & Technology (SEST),  
-**Jamia Hamdard (Deemed to be University), New Delhi, India**  
-**22–23 April 2025**
+Session Chair — Health Data AI & Analytics
+5th International Conference on ICT for Digital, Smart and Sustainable Development (ICIDSSD’25)
+Jamia Hamdard, New Delhi, India · 2025
+(Springer-affiliated conference)
 
-*Served as Session Chair for peer-reviewed technical sessions at an international conference supported by Springer.*
+🔹 International Conference Oral Presentations
 
----
+Big Data Analytics as a Tool for Reducing Ergonomics Risk
+Oral Presentation
+15th International Conference on Humanizing Work and Work Environment
+Aligarh Muslim University, India · 2017
 
-## Conference Presentations (Oral / Poster)
+Ergonomic Survey of Computer Science Students: Challenges at Workplace
+Oral Presentation
+15th International Conference on Humanizing Work and Work Environment
+Aligarh Muslim University, India · 2017
 
-### **SMART-Rural: AI-Enabled Social Determinants Profiling and Geospatial Risk Stratification for Chronic Diseases in 15,000 Rural Population**  
-Oral Presentation  
-**Integral–IAPSM UP–UK CON 2025**, Lucknow, India  
-15–16 November 2025
+🔹 National & International Symposia
 
----
+An Improved Model on Climate Change and its Impact on Health Employing Machine Learning Methods
+Oral / Poster Presentation
+National Symposium on Biodiversity and Sustainable Development
+Aligarh Muslim University, India · 2019
 
-### **Alzheimer’s Disease and Mild Cognitive Impairment Converts in the Female Population: An Epidemiological Analysis**  
-Poster Presentation  
-**18th Singapore Public Health & Occupational Medicine Conference**,  
-SingHealth, Singapore  
-23–24 September 2024
+Cashless Economy in the Age of Big Data
+Oral Presentation
+National Conference on Cashless Economy: Opportunities and Challenges
+Aligarh Muslim University, India · 2017
 
----
+🔹 Conference Participation & Academic Engagements
 
-### **Big Data Analytics as a Tool for Reducing Ergonomics Risk**  
-Oral Presentation  
-**15th International Conference on Humanizing Work and Work Environment**  
-Zakir Hussain College of Engineering & Technology,  
-Aligarh Muslim University, India  
-December 2017
+Indo-German Symposium on Recent Advances in Machine Translation — 2021
 
----
+International Symposium on Health Informatics & Bioinformatics, Turkey — 2020
 
-### **Ergonomic Survey of Computer Science Students: Challenges at Workplace**  
-Oral Presentation  
-**15th International Conference on Humanizing Work and Work Environment**  
-Zakir Hussain College of Engineering & Technology,  
-Aligarh Muslim University, India  
-December 2017
+International Conference on Emerging Trends in Healthcare Technology, IIT Kharagpur — 2020
 
----
+Symposium on Quantum Information & Computation, IIIT Hyderabad — 2020
 
-### **Cashless Economy in the Age of Big Data**  
-Oral Presentation  
-**National Conference on Cashless Economy: Opportunities and Challenges**  
-Aligarh Muslim University, India  
-April 2017
+National Seminar on Data Science and Its Applications — 2020
 
----
-
-## Symposiums, Seminars & Academic Participation
-
-- Indo–German Symposium on Recent Advances in Machine Translation, NIT Assam, India (March 2021)
-- 13th International Symposium on Health Informatics & Bioinformatics, Turkey (October 2020)
-- International Conference on Emerging Trends in Healthcare Technology, IIT Kharagpur, India (August 2020)
-- Symposium on Quantum Information & Computation, IIIT Hyderabad, India (July 2020)
-- National Seminar on Data Science and Its Applications, Maharashtra, India (July 2020)
-- National Conference on Biomonitoring, India (June 2020)
-- International Seminar on Future Perspectives for COVID-19, IEEE, India (May 2020)
+International Seminar on Future Perspectives for COVID-19 (IEEE) — 2020
