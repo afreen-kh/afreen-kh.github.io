@@ -33,7 +33,7 @@ my Google Scholar profile
   {% include archive-single.html %}
 {% endfor %}
 
-<h2 class="pub-section-title">Edited Volumes (In Preparation)</h2>
+<h2 class="pub-section-title">Edited Volumes</h2>
 
 {% assign edited_volumes = site.publications | where: "category", "edited-volume" | sort: "date" | reverse %}
 {% for post in edited_volumes %}
