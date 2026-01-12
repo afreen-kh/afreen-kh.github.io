@@ -74,3 +74,37 @@
   padding-left: 10px;
   border-left: 3px solid #e0e0e0;
 }
+
+/* About page readability */
+.page__content {
+  max-width: 880px;
+  margin: auto;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+/* Contact block */
+.about-contact {
+  margin-top: 36px;
+  font-size: 15px;
+  color: #333;
+}
+
+/* Footer links already discussed */
+.academic-footer {
+  margin-top: 24px;
+  padding-top: 12px;
+  border-top: 1px solid #e5e5e5;
+  text-align: center;
+}
+
+.academic-footer a {
+  margin: 0 14px;
+  font-size: 14px;
+  color: #2a7ae2;
+  text-decoration: none;
+}
+
+.academic-footer a:hover {
+  text-decoration: underline;
+}
