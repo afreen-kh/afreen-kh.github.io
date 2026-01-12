@@ -26,10 +26,16 @@ My long-term goal is to advance equitable, data-driven healthcare systems by int
 
 ---
 
+<hr class="about-divider">
+
 <div class="about-contact">
-<strong>Contact</strong><br>
-Email: <a href="mailto:afreen.khan@iul.ac.in">afreen.khan@iul.ac.in</a><br>
-Office: Department of Computer Application, Integral University, Lucknow, UP 226026, India
+  <strong>Contact</strong>
+  <p>
+    <span>Email:</span>
+    <a href="mailto:afreen.khan@iul.ac.in">afreen.khan@iul.ac.in</a><br>
+    <span>Office:</span>
+    Department of Computer Application, Integral University, Lucknow, UP 226026, India
+  </p>
 </div>
 
 <div class="academic-footer">
