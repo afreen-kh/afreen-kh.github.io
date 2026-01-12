@@ -5,6 +5,7 @@
 .publications-header {
   font-size: 16px;
   margin-bottom: 18px;
+  color: #333;
 }
 
 .publications-stats {
@@ -22,29 +23,27 @@
   margin-bottom: 24px;
 }
 
+/* Publication item title */
 .archive__item-title {
   font-size: 18px !important;
   line-height: 1.4;
 }
 
-
-.archive__item-excerpt {
-  font-size: 14.5px;
-  color: #444;
-  margin-top: 6px;
-}
-
+/* Authors */
 .pub-authors {
   font-size: 14.5px;
   margin-top: 4px;
+  color: #333;
 }
 
+/* Journal / venue */
 .pub-journal {
   font-style: italic;
   color: #555;
   font-size: 14px;
 }
 
+/* Contribution / excerpt */
 .pub-contribution {
   margin-top: 6px;
   padding-left: 10px;
@@ -53,7 +52,17 @@
   color: #444;
 }
 
-/* Publication action links (PDF | DOI | Code) */
+/* Presentation note */
+.pub-presentation {
+  margin-top: 6px;
+  font-size: 13px;
+  color: #666;
+  font-style: italic;
+  padding-left: 10px;
+  border-left: 3px solid #e0e0e0;
+}
+
+/* Publication action links */
 .archive__item-links a,
 .archive__item p a {
   font-size: 13.5px !important;
@@ -66,45 +75,79 @@
   text-decoration: underline;
 }
 
-.pub-presentation {
-  margin-top: 6px;
-  font-size: 13px;
-  color: #666;
-  font-style: italic;
-  padding-left: 10px;
-  border-left: 3px solid #e0e0e0;
+/* ===============================
+   Global Page Readability
+   =============================== */
+
+/* Constrain width and improve reading comfort */
+.page__content {
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.75;
+  font-size: 16px;
+  color: #222;
 }
 
-/* About page readability */
-.page__content {
-  max-width: 880px;
-  margin: auto;
-  line-height: 1.7;
-  font-size: 16px;
+/* ===============================
+   About Page – Contact & Footer
+   =============================== */
+
+.about-divider {
+  margin: 40px 0 24px;
+  border: none;
+  border-top: 1px solid #e5e5e5;
 }
 
 /* Contact block */
 .about-contact {
-  margin-top: 36px;
+  margin-top: 24px;
   font-size: 15px;
   color: #333;
 }
 
-/* Footer links already discussed */
+.about-contact strong {
+  display: block;
+  font-size: 17px;
+  margin-bottom: 6px;
+}
+
+.about-contact span {
+  font-weight: 500;
+}
+
+/* Academic footer links */
 .academic-footer {
-  margin-top: 24px;
+  margin-top: 20px;
   padding-top: 12px;
   border-top: 1px solid #e5e5e5;
   text-align: center;
 }
 
 .academic-footer a {
-  margin: 0 14px;
+  margin: 0 12px;
   font-size: 14px;
   color: #2a7ae2;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .academic-footer a:hover {
   text-decoration: underline;
+}
+
+/* ===============================
+   Small Screen Tweaks
+   =============================== */
+
+@media (max-width: 768px) {
+  .page__content {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .academic-footer a {
+    display: inline-block;
+    margin: 6px 8px;
+  }
 }
