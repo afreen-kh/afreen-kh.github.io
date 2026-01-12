@@ -24,7 +24,7 @@ main:
     url: /academic-service/
     
   - title: "Github"
-    url: /github/
+    url: https://github.com/afreen-kh?tab=projects
             
   - title: "CV"
     url: /files/Afreen_Khan_CV.pdf
