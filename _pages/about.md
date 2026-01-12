@@ -8,9 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-📄 **Curriculum Vitae:**  
-[View CV (PDF)](/files/Afreen_Khan_CV.pdf){:target="_blank"}
-
 I am an Assistant Professor in the Department of Computer Application at Integral University, Lucknow, where I conduct research at the intersection of artificial intelligence, healthcare informatics, and clinical decision support. My work focuses on developing AI systems that integrate diverse healthcare data, from neuroimaging and genomic biomarkers to clinical narratives and social determinants of health, to advance precision medicine and address health equity challenges in resource-limited settings.
 
 ## Research Portfolio
