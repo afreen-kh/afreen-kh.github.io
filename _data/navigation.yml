@@ -18,7 +18,10 @@ main:
     url: /research/    
 
   - title: "Teaching"
-    url: /teaching/    
+    url: /teaching/ 
+
+  - title: "Academic Service"
+    url: /academic-service/
     
   - title: "Github"
     url: /github/
