@@ -7,7 +7,7 @@ category: manuscripts
 
 paperurl: "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2024.1391465/full"
 pdf: "https://www.frontiersin.org/articles/10.3389/fnins.2024.1391465/pdf"
-code: "https://github.com/afreen-kh/paper-companion"
+code: "https://github.com/afreen-kh/ParallelComposite-ATN-AD/tree/main"
 code_label: "Repo"
 
 excerpt: "A parallel and multi-composite machine learning architecture that integrates AT(N) protein biomarkers with clinical features to enhance Alzheimer’s disease diagnostic accuracy."
