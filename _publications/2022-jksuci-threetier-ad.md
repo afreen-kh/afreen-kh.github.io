@@ -7,7 +7,7 @@ category: manuscripts
 
 paperurl: "https://www.sciencedirect.com/science/article/pii/S1319157822002439"
 pdf: "https://www.sciencedirect.com/science/article/pii/S1319157822002439/pdf"
-code: "https://github.com/afreen-kh/paper-companion"
+code: "https://github.com/afreen-kh/Three-Tiered-Cognitive-Model/tree/main"
 code_label: "Repo"
 
 excerpt: "A three-tiered cognitive hybrid machine learning framework that combines multiple learning paradigms to enhance the accuracy and robustness of Alzheimer’s disease diagnosis."
