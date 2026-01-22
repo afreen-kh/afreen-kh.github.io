@@ -5,8 +5,8 @@ venue: "Arab Gulf Journal of Scientific Research"
 date: 2022-01-01
 category: manuscripts
 
-paperurl: "https://www.emerald.com/insight/content/doi/10.1108/AGJSR-XX-XXXXXX/full/html"
-pdf: "https://www.emerald.com/insight/content/doi/10.1108/AGJSR-XX-XXXXXX/pdf"
+paperurl: "https://www.emerald.com/agjsr/article-split/40/1/2/59850/A-systematic-analysis-of-assorted-machine-learning"
+pdf: "https://www.emerald.com/agjsr/article-pdf/40/1/2/356269/agjsr-04-2022-0029.pdf"
 code: "https://github.com/afreen-kh/paper-companion"
 code_label: "Repo"
 
