@@ -6,8 +6,8 @@ date: 2021-01-01
 category: manuscripts
 
 paperurl: "https://www.iapsmupuk.org/journal/index.php/IJCH/article/view/2033"
-pdf: "https://www.iapsmupuk.org/journal/index.php/IJCH/article/view/2033/1678"
-code: "https://github.com/afreen-kh/paper-companion"
+pdf: "https://www.iapsmupuk.org/journal/index.php/IJCH/article/view/2033/1175"
+code: "https://github.com/afreen-kh/COVID19-Severity-Trend-India"
 code_label: "Repo"
 
 excerpt: "Develops a severity-based analytical model for COVID-19 in India using exploratory data analysis and logistic growth modeling to identify early trends, estimate inflection points, and predict future confirmed cases."
