@@ -7,8 +7,6 @@ category: manuscripts
 
 paperurl: "https://biomedeng.jmir.org/2020/1/e14389/"
 pdf: "https://biomedeng.jmir.org/2020/1/e14389/PDF"
-code: "https://github.com/afreen-kh/longitudinal-mri-eda-ad"
-code_label: "Repo"
 
 excerpt: "An exploratory data analysis of longitudinal MRI data examining the relationship between demographic, cognitive, and volumetric brain features and the progression of Alzheimer’s disease."
 
