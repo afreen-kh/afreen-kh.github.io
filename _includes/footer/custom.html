@@ -1,12 +1,7 @@
-<!-- start custom footer snippets -->
-
-<div style="margin-top: 1em; font-size: 0.9em; color: #666;">
-  © {{ site.time | date: '%Y' }} Afreen Khan · Research Portfolio  
-  <br/>
+<div style="margin-top: 1em; font-size: 0.9em; color: #666; text-align: center;">
+  © {{ site.time | date: '%Y' }} Afreen Khan · Academic Portfolio<br/>
   Maintained for academic and research dissemination.
 </div>
-
-<a href="{{ site.baseurl }}/sitemap/">Sitemap</a>
 
 <!-- Support for MathJax -->
 <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
@@ -21,5 +16,3 @@
   mermaid.initialize({ startOnLoad: true, theme: 'default' });
   await mermaid.run({ querySelector: 'code.language-mermaid' });
 </script>
-
-<!-- end custom footer snippets -->
